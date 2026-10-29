@@ -22,7 +22,7 @@ function Navbar() {
       <div className="relative mx-auto max-w-7xl">
 
         {/* Main Navbar */}
-        <div className="flex items-center justify-between rounded-2xl border border-white/10 bg-black/80 px-4 py-3 shadow-lg shadow-black/20 backdrop-blur-xl md:px-8">
+        <div className="flex items-center justify-between rounded-2xl border border-white/10 bg-transparent px-4 py-3 shadow-lg shadow-black/20 backdrop-blur-xl md:px-8">
 
           {/* Logo */}
           <Link
