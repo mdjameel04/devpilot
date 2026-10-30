@@ -71,11 +71,10 @@ function Features() {
             {featuers.map(({ title, desc, Icon: Icon, tile }) => (
             <div
               key={title}
-              className="rounded-2xl border border-white/10 bg-white/[0.03] p-5 transition hover:border-violet-400/40 hover:bg-white/[0.06]"
+              className="rounded-2xl border border-white/10 bg-white/[0.03] p-5 transition hover:border-violet-400/45 hover:bg-white/[0.06]"
             >
               <div
-                className={`mb-4 flex h-10 w-10 items-center justify-center rounded-xl ${tile}`}
-              >
+                className={`mb-4 flex h-10 w-10 items-center justify-center rounded-xl ${tile}`}>
                 <Icon className="h-5 w-5" aria-hidden="true" />
               </div>
               <h3 className="text-base font-semibold text-white">{title}</h3>

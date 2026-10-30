@@ -23,7 +23,7 @@ export default function HeroSection() {
       <div className="absolute -top-32 left-1/4 -z-10 h-96 w-96 rounded-full bg-violet-600/20 blur-[140px]" />
 
       {/* Hero content */}
-      <div className="mx-auto flex  min-h-screen max-w-7xl items-center px-6 pb-24 pt-32 md:px-12">
+      <div className="mx-auto flex  min-h-screen max-w-7xl items-center px-6 pb-24 pt-16 md:px-12">
 
         <div className="max-w-2xl">
 
