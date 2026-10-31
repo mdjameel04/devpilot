@@ -6,7 +6,7 @@ export default function HeroSection() {
     const steps = ["Connect Your Github", "AI Reviews Our Code", "Get Instant Insights"];
 
   return (
-    <section className="relative isolate min-h-screen overflow-hidden bg-[#05040d] text-white">
+    <section className="relative isolate min-h-screen overflow-hidden bg-[#05040d] text-white pt-24">
 
       {/* Background image */}
       <div

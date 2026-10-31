@@ -35,7 +35,7 @@ function HowItWorks() {
   return (
     <section
       id="how-it-works"
-      className="bg-black/40 px-4  md:px-8 md:py-6 lg:px-12"
+      className="bg-black/40 px-4  md:px-8 md:py-12 lg:px-12"
     >
       <div className="mx-auto max-w-[1200px]">
         {/* Eyebrow */}

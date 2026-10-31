@@ -5,6 +5,8 @@ import Hero from './components/hero'
 import Features from './components/features'
 import HowItWorks from './components/How-it-works'
 import Pricing from './components/Pricing'
+import WhyDevpilot from './components/whyDevpilot'
+import ProductshowCase from './components/ProductshowCase'
 
 const page = () => {
   return (
@@ -12,6 +14,8 @@ const page = () => {
       <Navbar/>
    <Hero/>
    <Features/>
+   <ProductshowCase/>
+   <WhyDevpilot/>
    <HowItWorks/>
    <Pricing/>
     </div>
