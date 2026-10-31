@@ -7,6 +7,8 @@ import HowItWorks from './components/How-it-works'
 import Pricing from './components/Pricing'
 import WhyDevpilot from './components/whyDevpilot'
 import ProductshowCase from './components/ProductshowCase'
+import Footer from './components/Footer'
+import FinalCTA from './components/FinalCTA'
 
 const page = () => {
   return (
@@ -18,6 +20,8 @@ const page = () => {
    <WhyDevpilot/>
    <HowItWorks/>
    <Pricing/>
+   <FinalCTA/>
+   <Footer/>
     </div>
   )
 }
